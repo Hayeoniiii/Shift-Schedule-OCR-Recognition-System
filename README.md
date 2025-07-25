@@ -10,6 +10,7 @@
 OpenCV를 활용해 근무표 이미지에서 테이블 구조 검출 및 셀 단위로 이미지 크롭<br>
 크롭된 셀 이미지에 대해 CNN 분류 모델을 적용하여 근무 유형(D/N/E)을 인식, 공백 셀은 화이트 비율로 판별<br>
 데이터셋: Chars74K – Character Recognition Dataset 중 English Characters subset에서 'D', 'N', 'E' 클래스 데이터를 선별해 학습용으로 구성<br>
+https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k/ <br>
 사용 목적: 병원, 공장 등에서 사용하는 교대근무표 이미지를 자동으로 분석하여, 날짜별 근무자와 근무 유형 정보를 구조화된 JSON 형태로 추출 및 앱/웹 연동 가능<br>
 
 ### 기대효과 
